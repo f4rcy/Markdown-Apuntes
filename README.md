@@ -16,15 +16,18 @@
 
 * Los TÍTULOS se hacen con este símbolo: #.
 
-# Título
+```
+#Titulo
+```
 
 * Los SUBTÍTULOS se hacen con # pero así:
-
+```
 ## hola
 ### hola
 #### hola
 ##### hola
 ###### hola
+```
 <br>
 
 ---
@@ -35,14 +38,21 @@
 
 * Para hacer letra en cursiva: *hola* 
 
-
+```
 *hola*
+```
 
 * Para subrayar texto o palabra: hola
 
+```
 **hola**
+```
 
-* Para tachar algún texto o palabra: hola
+* Para tachar algún texto o palabra: ~~hola~~
+
+```
+~~hola~~
+```
 
 <br>
 
@@ -57,14 +67,14 @@ Hay listas ordenadas y desordenadas. Las listas ordenadas son las que van en ord
 
 
 
-* #### Ordenadas
+* **Ordenadas**
 
 1. Hola
 2. Soy una lista
     1. Ordenada
 
 
-* #### Desordenadas
+* **Desordenadas**
 
 * Hola
 * Soy una lista
@@ -77,14 +87,19 @@ Hay listas ordenadas y desordenadas. Las listas ordenadas son las que van en ord
 
 ## Enlaces<div id='id4' />
 
+```
 [nombre del link](url)
+```
+
  Ejemplo: [ábreme](https://www.youtube.com/watch?v=I0tZmujx5BM)
 
  <br>
 
 Si cuando pasamos el cursor por el enlace queremos que muestre un mensaje colocamos:
 
+```
 [nombre del link](url "mensaje")
+```
 
  Ejemplo: [ábreme](https://www.youtube.com/watch?v=I0tZmujx5BM "ábrelo -_-")
 
@@ -100,8 +115,11 @@ Si cuando pasamos el cursor por el enlace queremos que muestre un mensaje coloca
 
 * Para mostrar solo una línea de código, se pone solo una tilde así:
 
+```
 `console.log (hello word)
 `
+```
+
 se vería así:
 
 `
@@ -114,13 +132,14 @@ console.log (hello word)
 
 
 se vería así:
-
+```
 #include <iostream>
 using namespace std;
 int main(){
     cout<<"hello word"<<endl;
     return 0;
 }
+```
 <br>
 
 * Si queremos darle color a la sintaxis, a las primeras tildes se le agrega el nombre del lenguaje así:
@@ -141,18 +160,27 @@ int main(){
 
 ---
 
-<br>32
+<br>
 
 ## Tablas<div id='id6' />
 
 El símbolo que necesitamos es: | (está abajo de la tecla Esc y arriba de tab.)
 
 así: 
+```
+|CELDA1 |CELDA2 |CELDA3 |
+|-------|-------|-------|
+|hola   |hello  |hallo  |
+|goku   |gohan  |goten  |
+```
+
+se vería así:
 
 |CELDA1 |CELDA2 |CELDA3 |
 |-------|-------|-------|
 |hola   |hello  |hallo  |
 |goku   |gohan  |goten  |
+
 <br>
 
 ---
@@ -164,16 +192,14 @@ así:
 hay dos formas de hacerlo:
 
 * Por URL:
-
+```
 ![nombre de la imagen(URL)
-
+```
 * Local:
-
+```
 ![nombre de la imagen](nombre del archivo.png)
-
+```
 en este modo debemos guardar o poner nuestra imagen en la carpeta donde tengamos el archivo .md de vsc asÍ:
-
-<br>
 
 ![](cap.png)
 
